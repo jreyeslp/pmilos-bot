@@ -1,0 +1,28 @@
+{
+  "name": "pmilos-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jreyeslp/pmilos-bot.git"
+  },
+  "author": "Javier de los Reyes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jreyeslp/pmilos-bot/issues"
+  },
+  "homepage": "https://github.com/jreyeslp/pmilos-bot#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
